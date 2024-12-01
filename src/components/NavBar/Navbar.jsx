@@ -4,9 +4,10 @@ import MenuIcon from "@mui/icons-material/Menu";
 import LocalMallIcon from "@mui/icons-material/LocalMall";
 import PersonOutlineIcon from "@mui/icons-material/PersonOutline";
 import SearchIcon from "@mui/icons-material/Search";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
-  const [isCategoriesHoverd, setIsCategoriesHoverd] = useState(true);
+  const [isCategoriesHoverd, setIsCategoriesHoverd] = useState(false);
 
   return (
     <div className="global">
@@ -25,7 +26,7 @@ const Navbar = () => {
           <ul className="middletext">
             <li>All Products</li>
             <li
-              onMouseEnter={() => setIsCategoriesHoverd(true)}
+              onMouseEnter={() => setIsCategoriesHoverd(false)}
               // onMouseLeave={() => setIsCategoriesHoverd(false)}
             >
               Categories
@@ -86,12 +87,16 @@ const Navbar = () => {
             <li>Princess by RENÉE</li>
           </ul>
         </div>
+
         <div className="search">
           <SearchIcon />
         </div>
-        <div className="person">
-          <PersonOutlineIcon />
-        </div>
+
+        <NavLink to="/login" className="person">
+          <div>
+            <PersonOutlineIcon />
+          </div>
+        </NavLink>
         <div className="cart">
           <LocalMallIcon />
         </div>

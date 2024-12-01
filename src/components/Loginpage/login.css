@@ -1,0 +1,157 @@
+/* General Styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  min-height: 100vh;
+  text-align: center;
+}
+
+/* Background Image Styling */
+.background-image {
+  width: 100%;
+  height: 50vh;
+  background-image: url("https://www.reneecosmetics.in/cdn/shop/files/Rectangle_9239.png?v=1702986305&width=1920");
+  background-size: cover;
+  background-position: bottom;
+  position: relative;
+  margin-top: 5px;
+  /* object-fit: cover; */
+}
+
+.renee-logo {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 100%;
+}
+
+/* Card Styling */
+.card {
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  position: relative;
+  top: -50px; /* Pull card upwards */
+}
+
+.card h3 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333333;
+}
+
+.card label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #666666;
+}
+
+.card input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Button Styling */
+.btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background-color: #333333;
+}
+
+/* Divider Styling */
+.divider {
+  margin: 20px 0;
+  font-size: 14px;
+  color: #888888;
+}
+
+/* Icons Container */
+.icon-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.icon-option {
+  text-align: center;
+}
+
+.icon {
+  font-size: 32px;
+  color: #555555;
+}
+
+.icon-option p {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #555555;
+}
+
+/* Terms Styling */
+.terms {
+  margin: 20px 0;
+  font-size: 12px;
+  color: #555555;
+  text-align: center;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+
+.checkbox-container a {
+  color: #007bff;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.checkbox-container a:hover {
+  text-decoration: underline;
+}
+
+/* Extra Links */
+.extra-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.extra-links a {
+  font-size: 14px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.extra-links a:hover {
+  text-decoration: underline;
+}

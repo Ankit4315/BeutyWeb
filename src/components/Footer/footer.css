@@ -1,98 +1,89 @@
 * {
-  margin: 0%;
-  padding: 0%;
+  margin: 0;
+  padding: 0;
 }
 
-html,
-body {
-  height: 100%;
-  width: 100%;
-}
-.main {
-  height: 600px;
-  width: 100%;
+footer {
   background-color: black;
+  color: white;
+  padding: 20px 40px;
   display: flex;
-  position: absolute;
-  /* margin-top: 300px; */
-}
-.main1 {
-  height: 500px;
-  width: 40%;
-  background-color: black;
-  margin-top: 80px;
-}
-
-.img {
-  filter: invert(1);
-  margin-left: 80px;
-  padding: 20px;
-}
-
-.fb{
-    color: white;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .about {
-  height: 300px;
-  width: 100%;
-  background-color: black;
-}
-.icon {
-  height: 200px;
-  width: 100%;
-  background-color: black;
-}
-.about p {
-  padding: 0px 80px 0px 100px;
-  color: white;
+  flex: 1;
+  min-width: 300px;
+  padding: 10px;
 }
 
-.about h1 {
-  padding: 0px 0px 20px 100px;
-  color: white;
+.Footerimg {
+  filter: invert(1);
+  max-height: 50px;
+  margin-bottom: 10px;
+}
+
+.about p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.logos {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.logos:hover {
+  background-color: white;
+  color: black;
+  transform: scale(1.1);
 }
 
 .content {
-  height: 500px;
-  width: 60%;
-  background-color: black;
-  margin-top: 80px;
+  flex: 2;
   display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
 }
 
 .box1 {
-  height: 500px;
-  width: 250px;
-  background-color: black;
-  margin-left: 20px;
-  list-style-type: none;
+  flex: 1;
+  min-width: 150px;
 }
+
+.box1 h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
 .box1 ul {
   list-style-type: none;
-
-  margin-top: 10px;
+  padding: 0;
 }
+
 .box1 ul li {
-  padding: 5px;
+  margin: 4px 0;
 }
 
-.box1 a {
+.box1 ul li a {
   text-decoration: none;
   color: white;
 }
-.box1 p,
-h3 {
-  color: white;
-}
 
-hr {
-  border-top: 5px solid green;
-  width: 350px;
-  margin-left: 25px;
-}
-
-.box1 ul li a :hover {
+.box1 ul li a:hover {
   text-decoration: underline;
-  background: white;
 }
