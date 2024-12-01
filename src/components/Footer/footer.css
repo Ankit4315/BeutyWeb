@@ -2,6 +2,7 @@
     margin: 0%;
     padding: 0%;
 
+
 }
 
 html,
@@ -10,17 +11,19 @@ body {
     width: 100%;
 
 
-    
+
 }
+
 .main {
     height: 600px;
     width: 100%;
     background-color: black;
     display: flex;
     position: absolute;
-    /* margin-top: 300px; */
+
 
 }
+
 .main1 {
     height: 500px;
     width: 40%;
@@ -29,22 +32,62 @@ body {
 
 
 }
-.about{
-    height: 300px;
+
+.about {
+    height: 250px;
     width: 100%;
     background-color: black;
 
-    
 }
-.icon{
+
+.img {
+    filter: invert(1);
+    margin-left: 80px;
+    padding: 20px;
+}
+
+.about2 {
     height: 200px;
     width: 100%;
-    background-color: black;
-    
+
 }
+
+.icons {
+    height: 200px;
+    width: 100%;
+    margin-left: 100px;
+
+    color: white;
+    display: flex;
+
+    gap: 15px;
+    background-color: black;
+
+}
+
+.logos {
+    height: 35px;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+
+
+.store {
+    margin-left: 100px;
+    margin-top: -125px;
+    gap: 15px;
+    display: flex;
+}
+
 .about p {
     padding: 0px 80px 0px 100px;
     color: white;
+    /* font-weight:lighter; */
 
 }
 
@@ -76,31 +119,36 @@ body {
     list-style-type: none;
 
 }
-.box1 ul{
+
+.box1 ul {
     list-style-type: none;
-    
+
     margin-top: 10px;
 }
-.box1 ul li{
+
+.box1 ul li {
     padding: 5px;
 }
 
-.box1 a {
-  
+.ho a {
+
     text-decoration: none;
     color: white;
 }
-.box1 p ,h3{
+
+.ho li:hover {
+
+    text-decoration: underline;
     color: white;
 }
 
-hr{
-    border-top: 5px solid green; 
-    width: 350px;
-    margin-left: 25px;
+.box1 p,
+h3 {
+    color: white;
 }
 
-.box1 ul li a :hover{
-    text-decoration: underline;
-    background: white;
+hr {
+    border-top: 5px solid green;
+    width: 350px;
+    margin-left: 25px;
 }

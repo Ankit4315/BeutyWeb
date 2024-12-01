@@ -1,20 +1,57 @@
 import React from 'react'
 import "./footer.css"
+import FacebookIcon from '@mui/icons-material/Facebook';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import YouTubeIcon from '@mui/icons-material/YouTube';
+import XIcon from '@mui/icons-material/X';
+
 
 const Footer = () => {
   return (
     <footer>
       <div className="main">
-
-
         <div className="main1">
           <div className="about">
-
-          <h1>RENEE</h1>
-
+          <img className='img' src="https://www.reneecosmetics.in/cdn/shop/files/Group_1000003538_200x.svg?v=1702452647" alt="" />
           <p>Timelessly inspired, endlessly enhanced- RENÉE Cosmetics is an Indian makeup brand that's redefining beauty with its range of high quality, cruelty-free and FDA-approved innovative range of products. RENÉE believes in empowering women to own and enjoy their bold, ambitious persona and let their glam do the talking.</p>
           </div>
-          <div className="icon">
+          <div className="about2">
+            <div className='icons'> 
+              <div className="logos">
+
+              <FacebookIcon />
+              </div>
+              <div className="logos">
+
+              <InstagramIcon />
+              </div>
+              <div className="logos">
+              <YouTubeIcon />
+
+              </div>
+              <div className="logos">
+
+              <XIcon />
+              </div>
+              
+
+          
+            </div>
+            <div className="store">
+                <div>
+              <img src="https://www.reneecosmetics.in/cdn/shop/files/download-on-the-app-store-apple-logo-svgrepo-com_1.svg?v=1703049493" alt="" />
+
+                </div>
+                <div>
+              <img src="https://www.reneecosmetics.in/cdn/shop/files/google-play-badge-logo-svgrepo-com_1.svg?v=1703049493" alt="" />
+
+                </div>
+
+
+
+              </div>
+
+
 
           </div>
 
@@ -22,13 +59,12 @@ const Footer = () => {
         <div className="content">
           <div className="box1">
             <h3>Categories</h3>
-            <ul>
+            <ul className='ho'>
 
               <li><a href="">All Products</a></li>
               <li><a href="">Lips</a></li>
               <li><a href="">Face</a>  </li>
               <li><a href="">Eyes</a></li>
-
               <li><a href="">Fragnances</a></li>
               <li><a href="">Nails</a></li>
               <li><a href="">Skin</a></li>
@@ -41,7 +77,7 @@ const Footer = () => {
           </div>
           <div className="box1">
             <h3>Useful Links</h3>
-            <ul>
+            <ul className='ho'>
 
               <li><a href="">My Account</a></li>
               <li><a href="">Track Order</a></li>
