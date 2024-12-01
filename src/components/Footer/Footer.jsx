@@ -37,7 +37,9 @@ const Footer = () => {
                 <a href="">Lips</a>
               </li>
               <li>
-                <a href="">Face</a>{" "}
+                <a href="" className="">
+                  Face
+                </a>{" "}
               </li>
               <li>
                 <a href="">Eyes</a>
